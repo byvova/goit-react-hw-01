@@ -1,5 +1,6 @@
 import './App.css';
-import { Profile } from '../Profile/Profile'
+import { Profile } from './Profile';
+
 
 const userData = {
   username: "Jacques Gluke",
