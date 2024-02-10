@@ -1,7 +1,5 @@
 import css from './Profile.module.css'
 
-console.log(css);
-
 export const Profile = ({ name, tag, location, image, stats }) => {
     return (
         <div className={css.profileContainer}>
