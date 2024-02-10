@@ -1,0 +1,46 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-container {
+    width: 300px;
+    background: rgb(236, 236, 236);
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.image-container {
+    justify-content: center;
+}
+
+.profile-container img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.gray {
+    color: rgb(104, 104, 104);
+}
+
+.profile-list {
+    display: flex;
+
+}
+
+.profile-item {
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+    border: 1px solid gray
+}
+
+.profile-item span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98px;
+}
