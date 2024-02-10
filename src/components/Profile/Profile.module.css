@@ -4,18 +4,26 @@ ul {
     margin: 0;
 }
 
-.profile-container {
+p{
+    margin: 3px;
+}
+
+.profileContainer {
     width: 300px;
     background: rgb(236, 236, 236);
     border: 2px solid black;
     border-radius: 2%;
-}
-
-.image-container {
     justify-content: center;
 }
 
-.profile-container img {
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImage {
     margin-top: 20px;
     width: 100px;
     height: 100px;
@@ -27,18 +35,17 @@ ul {
     color: rgb(104, 104, 104);
 }
 
-.profile-list {
+.profileList {
     display: flex;
-
 }
 
-.profile-item {
+.profileItem {
     background-color: rgb(187, 187, 187);
     text-align: center;
-    border: 1px solid gray
+    border: 1px solid gray;
 }
 
-.profile-item span {
+.profileSpan {
     display: flex;
     justify-content: space-around;
     align-items: center;

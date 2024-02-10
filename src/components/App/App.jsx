@@ -1,6 +1,7 @@
 import { FriendList } from '../FriendList/FriendList';
+import { Profile } from '../Profile/Profile';
 import './App.module.css';
-import { Profile } from './Profile';
+
 
 
 const userData = {
@@ -25,7 +26,9 @@ export const App = () => {
                 location={userData.location}
                 image={userData.avatar}
                 stats={userData.stats}
-            />
+            ></Profile>
+
+
 
             <FriendList></FriendList>
         </>
