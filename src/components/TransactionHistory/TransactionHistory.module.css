@@ -1,0 +1,16 @@
+th{
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: #ffffff;
+    width: 75px;
+    border: 1px solid #444444;
+}
+
+.white{
+    color: black;
+    background-color: #ffffff;
+    width: 75px;
+    border: 1px solid #444444;
+}
