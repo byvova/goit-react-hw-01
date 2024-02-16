@@ -1,6 +1,6 @@
 import css from './TransactionHistory.module.css'
 
-export const TransactionHistory = (transactions) => {
+export const TransactionHistory = (items) => {
     console.log();
     return (
         <>
@@ -13,7 +13,7 @@ export const TransactionHistory = (transactions) => {
                         <th className={css.header}>Currency</th>
                     </tr>
                 </thead>
-                {transactions.items.map((tran) => {
+                {items.items.map((tran) => {
                     return (
                         <tbody key={tran.id}>
                             <tr>
